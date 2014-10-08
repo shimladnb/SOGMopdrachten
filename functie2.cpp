@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void doeshit (int arg[], int length)
+void doeshit (string arg[], int length)
 {
 	for (int n=0;n<length;n++)
 	{	
@@ -14,8 +14,8 @@ void doeshit (int arg[], int length)
 
 int main()
 {
-	int stad[] = {55,44,22,455,12};
-	doeshit (stad,5);
+	string stad[] = {"amsterdam","utrecht","jezus"};
+	doeshit (stad,3);
 
 	return 0;
 }
