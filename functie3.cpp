@@ -4,7 +4,6 @@ using namespace std;
 
 void roteerL (string arg[], int length)
 {
-
 	for (int n=0;n<length;n++)
 	{	
 		if (n > 0)
@@ -28,4 +27,3 @@ int main()
 
 	return 0;
 }
-
