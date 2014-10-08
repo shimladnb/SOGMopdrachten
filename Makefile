@@ -1,4 +1,4 @@
-all: telop list
+all: telop list sinus
 
 telop: functie1.cpp
 	g++ -c functie1.cpp
@@ -8,3 +8,6 @@ list: functie2.cpp
 	g++ -c functie2.cpp
 	g++ -o list functie2.o
 
+sinus: sinus.cpp
+	g++ -c sinus.cpp
+	g++ -o sinus sinus.o
