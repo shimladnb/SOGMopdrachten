@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-//math voor het consumeren van methamfetamine tijdens het coderen yolo
+
 using namespace std;
 //zodat je niet de hele tijd std::lt ofzo bij elke << moet zetten.
 
@@ -12,7 +12,7 @@ int main(int argc, char ** argv)
 	float PI = 3.1415;
 	for (int sample=0; sample < 48000; sample++)
 	{
-	cout << sin ((480*(2 * PI)/48000)*sample) << endl;
+	cout << sin (480*(2 * PI)* sample) << endl;
 	
 	}
 	return 0;
