@@ -46,3 +46,4 @@ int main()
 
 // (e - b)* index + b = envelope formule!  
 
+ 

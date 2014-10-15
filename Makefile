@@ -12,6 +12,6 @@ sinus: sinus.cpp
 	g++ -c sinus.cpp
 	g++ -o sinus sinus.o
 
-roteer: functie3.cpp
-	g++ -c functie3.cpp
-	g++ -o roteer functie3.o
+roteer: functie3-2.cpp
+	g++ -c functie3-2.cpp
+	g++ -o roteer functie3-2.o

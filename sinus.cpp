@@ -10,9 +10,9 @@ int main(int argc, char ** argv)
 //int main hier zet je je code in! 
 {
 	float PI = 3.1415;
-	for (int sample=0; sample < 48000; sample++)
+	for (int sample=0; sample < 71; sample++)
 	{
-	cout << sin (480*(2 * PI)* sample) << endl;
+	cout << sin (480 * 2 * PI * sample) << endl;
 	
 	}
 	return 0;
